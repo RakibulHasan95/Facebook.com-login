@@ -6,8 +6,8 @@
   font-family: "Poppins", sans-serif;
 }
 header img{
-  width: 36px;
-  margin-right: 5px;
+  width: 56px;
+  margin-right: 0px;
 }
 body{
   width: 100%;
@@ -28,14 +28,14 @@ body{
   border-radius: 5px;
   text-align: center;
   box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
-  height: 620px;
+  height: 690px;
 }
 .wrapper header{
-  font-size: 40px;
+  font-size: 0px;
   font-weight: 600;
 }
 .wrapper form{
-  margin: 40px 0;
+  margin: 30px 0;
 }
 form .field{
   width: 100%;
@@ -128,7 +128,7 @@ form .pass-txt{
 .wrapper a{
   color: #5372F0;
   text-decoration: none;
-  margin-top: 23px;
+  margin-top: 0px;
 }
 .wrapper a:hover{
   text-decoration: underline;
@@ -149,7 +149,11 @@ form input[type="submit"]:hover{
 }
 .banking img {
   width: 210px;
+  cursor: pointer;
 }
 .getbonus h4 {
   margin-top: 20px;
+}
+.aboutPayment h4{
+  color: blue;
 }
