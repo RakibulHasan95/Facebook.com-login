@@ -28,7 +28,7 @@ body{
   border-radius: 5px;
   text-align: center;
   box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
-  height: 690px;
+  height: 533px;
 }
 .wrapper header{
   font-size: 0px;
@@ -154,6 +154,6 @@ form input[type="submit"]:hover{
 .getbonus h4 {
   margin-top: 20px;
 }
-.aboutPayment h4{
+.offer h4{
   color: blue;
 }
