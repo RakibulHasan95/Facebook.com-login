@@ -5,9 +5,8 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-header img{
-  width: 56px;
-  margin-right: 0px;
+.logo img{
+  width: 28px;
 }
 body{
   width: 100%;
@@ -22,13 +21,13 @@ body{
   background: #5372F0;
 }
 .wrapper{
-  width: 381px;
+  width: 400px;
   padding: 40px 30px 50px 30px;
   background: #fff;
   border-radius: 5px;
   text-align: center;
   box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
-  height: 533px;
+  height: 700px;
 }
 .wrapper header{
   font-size: 0px;
@@ -150,6 +149,7 @@ form input[type="submit"]:hover{
 .banking img {
   width: 210px;
   cursor: pointer;
+  margin-top: 30px;
 }
 .getbonus h4 {
   margin-top: 20px;
@@ -157,3 +157,24 @@ form input[type="submit"]:hover{
 .offer h4{
   color: blue;
 }
+
+.signup input{
+  height: 42px;
+  margin-top: 15px;
+  color: #fff;
+  padding: 0px;
+  background: rgb(8, 154, 8);
+  cursor: pointer;
+  border-bottom: 2px solid rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  width: 227px;
+  border-radius: 6px;
+  border: none;
+}
+
+.signup input[type="submit"]:hover{
+  background: #07d40b;
+}
+
+
+
